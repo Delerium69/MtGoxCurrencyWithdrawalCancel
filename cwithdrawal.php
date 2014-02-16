@@ -97,7 +97,7 @@ a tool i've created for everyone to use without needing to know the technical co
 Source code available here: <a href=\"https://github.com/Delerium69/MtGoxCurrencyWithdrawalCancel\">https://github.com/Delerium69/MtGoxCurrencyWithdrawalCancel</a><BR><BR>
 </TD>
 </TABLE>
-<BR><BR>
+<BR>
 ";
 
 if(!isset($_POST['mt_key'])) {
@@ -166,7 +166,7 @@ echo "
 
 } else {
 	
-	echo "<B><div align=\"center\"><font size=\"2\" color=\"yellow\">The key/secret you entered was incorrect or you have no active withdrawals of 'confirmed' status</font></div><BR><BR>";
+	echo "<B><div align=\"center\"><font size=\"2\" color=\"yellow\">The key/secret you entered was incorrect or you have no active withdrawals of 'confirmed' status</font></div></B><BR><BR>";
 	
 }
 

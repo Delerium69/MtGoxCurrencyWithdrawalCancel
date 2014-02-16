@@ -79,7 +79,7 @@ echo $indexpage;
 echo "
 <TABLE class=\"mainpage\" border=\"0\" cellpadding=\"2\" cellspacing=\"1\" ALIGN=\"center\" width=\"0%\">
 <TD class=\"$rowcolour defsize\" valign=\"middle\">
-<font size=\"2\" color=\"red\"><B>You use this page at YOUR OWN RISK. I do not accept any responsibility for any information that has been unlawfully obtained from this page or webserver. <BR>This page has not been created nor supported by MtGox.</B></font><BR>
+<font size=\"2\" color=\"yellow\"><B>You use this page at your own risk. I do not accept any responsibility for any information that has been unlawfully obtained from this page or webserver. <BR>This page has not been created nor supported by MtGox.</B></font><BR>
 <BR><BR>
 <u>Instructions</u><BR><BR>
 1. Create an API key by going into your MtGox account and clicking on security centre or go here: https://www.mtgox.com/security<BR>

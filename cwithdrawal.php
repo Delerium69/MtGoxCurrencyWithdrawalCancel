@@ -91,7 +91,8 @@ echo "
 7. The website will come back with a success or fail and, if successful, your currency will be back in your MtGox account.<BR>
 <BR><BR>
 Once you have used this webpage I <font size=\"4\" color=\"red\">STRONGLY</font> advise that you go into your security centre, click on 'Current API Keys' and click the red cross in the <BR>
-corner to delete it. This ensures that should this website be hacked, the hackers will gain no information that they could use to hack your account.
+corner to delete it. This ensures that should this website be hacked, the hackers will gain no information that they could use to hack your account.<BR><BR>
+Source code available here: https://github.com/Delerium69/MtGoxCurrencyWithdrawalCancel
 </TD>
 </TABLE>
 <BR><BR>

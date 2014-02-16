@@ -74,10 +74,10 @@ $indexpage = "<html>
 
 echo $indexpage;
 
-echo "<div align=\"center\" style=\"color:#FF0000; font-size: 48pt\"><b>READ FIRST!</b></div><BR>";
+//echo "<div align=\"center\" style=\"color:#FF0000; font-size: 48pt\"><b>READ FIRST!</b></div><BR>";
 
 echo "
-<BR><TABLE class=\"mainpage\" border=\"0\" cellpadding=\"2\" cellspacing=\"1\" ALIGN=\"center\" width=\"0%\">
+<TABLE class=\"mainpage\" border=\"0\" cellpadding=\"2\" cellspacing=\"1\" ALIGN=\"center\" width=\"0%\">
 <TD class=\"$rowcolour defsize\" valign=\"middle\">
 <font size=\"2\" color=\"red\"><B>You use this page at YOUR OWN RISK. I do not accept any responsibility for any information that has been unlawfully obtained from this page or webserver. <BR>This page has not been created nor supported by MtGox.</B></font><BR>
 <BR><BR>
@@ -89,10 +89,12 @@ echo "
 5. Now enter your key and secret in the boxes below and click submit.<BR>
 6. The website will now return a list of your withdrawals with a status of 'Confirmed' only. Select the withdrawal you want to cancel and click cancel.<BR>
 7. The website will come back with a success or fail and, if successful, your currency will be back in your MtGox account.<BR>
-<BR><BR>
+<BR>
 Once you have used this webpage I <font size=\"4\" color=\"red\">STRONGLY</font> advise that you go into your security centre, click on 'Current API Keys' and click the red cross in the <BR>
 corner to delete it. This ensures that should this website be hacked, the hackers will gain no information that they could use to hack your account.<BR><BR>
-Source code available here: <a href=\"https://github.com/Delerium69/MtGoxCurrencyWithdrawalCancel\">https://github.com/Delerium69/MtGoxCurrencyWithdrawalCancel</a>
+Why have I done this page? - I realise that even if there is an API, many people do not come from a technical background and would not be able to use the API very easily. This website is just<BR>
+a tool i've created for everyone to use without needing to know the technical code that goes behind it. I'm completely transparent in my code and you can find the github source of this using the following link.<BR><BR>
+Source code available here: <a href=\"https://github.com/Delerium69/MtGoxCurrencyWithdrawalCancel\">https://github.com/Delerium69/MtGoxCurrencyWithdrawalCancel</a><BR><BR>
 </TD>
 </TABLE>
 <BR><BR>
@@ -159,6 +161,8 @@ echo "
 		//echo "<BR>$id,$amount,$curr,$status,$requested<BR>";
 		
 	}
+
+	echo "</TABLE>";
 
 } else {
 	

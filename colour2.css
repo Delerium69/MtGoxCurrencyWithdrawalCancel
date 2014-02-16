@@ -1,0 +1,318 @@
+/* CSS Script for FuntasyFatball.Com */
+
+ /* General page style. The scroll bar colours only visible in IE5.5+ 	background-color: #DFE7EE;*/
+body {
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #DEE3E7;
+	scrollbar-3dlight-color: #D1D7DC;
+	scrollbar-arrow-color:  #006699;
+	scrollbar-track-color: #EFEFEF;
+	scrollbar-darkshadow-color: #98AAB1;
+}
+
+html, body { height: 100%; font: normal 10px/1.5 Verdana, Arial, sans-serif; background: #000000; color: #efc9a0;}
+
+
+/* TABLE STYLES */
+
+/* This is the outline round the main forum tables */
+
+.mainpage	{ background-color: #00122a;;   border-left: 0px solid #00122a;  border-top: 0px solid #00122a;  border-right: 0px solid #00122a;  border-bottom: 0px solid #00122a; border-collapse: collapse; border-spacing: 0; }
+/* .row1 { background: #2b1507; border-top: 1px solid #31190a; height:12px; }
+.row2 { background: #231207; border-top: 1px solid #30190b; height:12px; }         #003268   #002d5e   #4d1a08    0 100% repeat-x; */
+
+.row1 { background: #00122a; border-top: 1px solid #00122a; height:12px; }
+.row2 { background: #002144; border-top: 1px solid #002144; height:12px; }
+
+/*tr:hover td { background: #0000FF; color: #fff }*/
+.tableth { 
+padding: 0;
+background: url("images/table-header.gif") 0 100% repeat-x;
+border-bottom: 1px solid #00122a; 
+white-space: nowrap; 
+font-family: Verdana, Arial, sans-serif;
+font-size: 11px;
+text-decoration: none;	
+font-weight: bold;
+}
+
+/* HYPERLINK PLAYER CLASS FONT STYLES */
+
+a.color-c1  { color: #c69b6d !important; font-weight: bold } /* warrior */
+a.color-c2  { color: #f48cba !important; font-weight: bold} /* paladin */
+a.color-c3  { color: #aad372 !important; font-weight: bold} /* hunter */
+a.color-c4  { color: #fff468 !important; font-weight: bold} /* rogue */
+a.color-c5  { color: #f0ebe0 !important; font-weight: bold} /* priest */
+a.color-c6  { color: #c41e3b !important; font-weight: bold} /* death knight */
+a.color-c7  { color: #2359ff !important; font-weight: bold} /* shaman */
+a.color-c8  { color: #68ccef !important; font-weight: bold} /* mage */
+a.color-c9  { color: #9382c9 !important; font-weight: bold} /* warlock */
+a.color-c11  { color: #ff7c0a !important; font-weight: bold} /* druid */
+
+
+/* FONT STYLES */
+
+.size18 {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 18px;
+	text-decoration: none;	
+}
+
+.size14b {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 14px;
+	text-decoration: none;	
+	font-weight: bold;
+}
+
+.defsize {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+	text-decoration: none;	
+}
+
+.attendsize {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 9px;
+	text-decoration: none;	
+}
+
+/* 	font-size: 11px; */
+
+.redtext {
+	font-family: Verdana, Arial, sans-serif;
+	text-decoration: none;
+	color: #FF0000;	
+	font-weight: bold;
+}
+
+.yellowtext {
+	font-family: Verdana, Arial, sans-serif;
+	text-decoration: none;
+	color: #FFFF00;	
+	font-weight: bold;	
+}
+
+.greentext {
+	font-family: Verdana, Arial, sans-serif;
+	text-decoration: none;
+	color: #00FF00;	
+	font-weight: bold;
+}
+
+.arialwhitebold12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+.arialwhitebold14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+.arialwhitebold16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+.arialwhitebold18 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+
+.arialblackbold14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #000000;
+	text-decoration: none;
+
+}
+
+.arialredbold12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #FF0000;
+	text-decoration: none;
+
+}
+
+.arialredbold14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FF0000;
+	text-decoration: none;
+
+}
+
+.arialredbold16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #FF0000;
+	text-decoration: none;
+
+}
+
+.arialcustombluebold10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bolder;
+	color: #1B3169;
+	text-decoration: none;
+
+}
+
+.arialcustombluebold12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #1B3169;
+	text-decoration: none;
+
+}
+
+.arialcustombluebold14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #1B3169;
+	text-decoration: none;
+
+}
+
+.arialcustombluebold16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #1B3169;
+	text-decoration: none;
+
+}
+
+.arialcustomblue10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #1B3169;
+	text-decoration: none;
+
+}
+
+.arialcustomblue12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #1B3169;
+	text-decoration: none;
+
+}
+
+.nolink12 {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+	color: #1B3169;
+	text-decoration: none;
+}
+
+.nolink12y {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFF00;
+	text-decoration: none;
+}
+
+.nolink14y {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFF00;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+a.nolink12:link { text-decoration: none; color : #efc9a0; }
+a.nolink12:active { text-decoration: none; color : #efc9a0; }
+a.nolink12:visited { text-decoration: none; color : #efc9a0; }
+
+a.nolink12y:link { text-decoration: none; color : #FFFF00; }
+a.nolink12y:active { text-decoration: none; color : #FFFF00; }
+a.nolink12y:visited { text-decoration: none; color : #FFFF00; }
+
+a:link { text-decoration: none; border: 0}
+a:active { text-decoration: none; border: 0}
+a:visited { text-decoration: none; border: 0}
+
+.gfx {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: none;
+	color: #1B3169;
+	text-decoration: none;
+}
+
+a.gfx:link { text-decoration: none; color : #FFFFFF; }
+a.gfx:active { text-decoration: none; color : #FFFFFF; }
+a.gfx:visited { text-decoration: none; color : #FFFFFF; }
+
+.arialcustomblue14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #1B3169;
+	text-decoration: none;
+
+}
+
+/* Form elements */
+input,textarea, select {
+	color : #000000;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border-color : #000000;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post, select {
+	background-color : #FFFFFF;
+}
+
+input { text-indent : 2px; }
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+	background-color : #EFEFEF;
+	color : #000000;
+	font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* The main submit button option */
+input.mainoption {
+	background-color : #FAFAFA;
+	font-weight : bold;
+}
+
+input.mainoption2 {
+	background-color : #FAFAFA;
+}
+
+/* None-bold submit button */
+input.liteoption {
+	background-color : #FAFAFA;
+	font-weight : normal;
+}

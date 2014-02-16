@@ -84,7 +84,7 @@ echo "
 <u>Instructions</u><BR><BR>
 1. Create an API key by going into your MtGox account and clicking on security centre or go here: https://www.mtgox.com/security<BR>
 2. Click on 'Advanced API Creation' at the bottom and enter your key name. Somethink like 'API Withdrawal' will do. <BR>
-3. On rights, select ONLY GetInfo AND Withdraw checkboxes and then click create key. <font size=\"1\" color=\"red\">Withdraw API is a very dangerous API to enable. Ensure you delete your key immediately.</font><BR> 
+3. On rights, select ONLY GetInfo AND Deposit checkboxes and then click create key. Neither of these methods cause an immediate security risk in the wrong hands.</font><BR> 
 4. Make a note of this API's key and secret immediately as this is required for this webpage.<BR>
 5. Now enter your key and secret in the boxes below and click submit.<BR>
 6. The website will now return a list of your withdrawals with a status of 'Confirmed' only. Select the withdrawal you want to cancel and click cancel.<BR>

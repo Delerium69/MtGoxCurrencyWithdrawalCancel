@@ -84,7 +84,7 @@ echo "
 <u>Instructions</u><BR><BR>
 1. Create an API key by going into your MtGox account and clicking on security centre or go here: https://www.mtgox.com/security<BR>
 2. Click on 'Advanced API Creation' at the bottom and enter your key name. Somethink like 'API Withdrawal' will do. <BR>
-3. On rights, select ONLY GetInfo AND Deposit checkboxes and then click create key. Neither of these methods cause an immediate security risk in the wrong hands.</font><BR> 
+3. On rights, select ONLY GetInfo AND Deposit checkboxes and then click create key. <font size=\"1\" color=\"yellow\">Neither of these methods cause an immediate security risk in the wrong hands and no one can withdraw or trade with them.</font><BR> 
 4. Make a note of this API's key and secret immediately as this is required for this webpage.<BR>
 5. Now enter your key and secret in the boxes below and click submit.<BR>
 6. The website will now return a list of your withdrawals with a status of 'Confirmed' only. Select the withdrawal you want to cancel and click cancel.<BR>
@@ -92,7 +92,7 @@ echo "
 <BR><BR>
 Once you have used this webpage I <font size=\"4\" color=\"red\">STRONGLY</font> advise that you go into your security centre, click on 'Current API Keys' and click the red cross in the <BR>
 corner to delete it. This ensures that should this website be hacked, the hackers will gain no information that they could use to hack your account.<BR><BR>
-Source code available here: https://github.com/Delerium69/MtGoxCurrencyWithdrawalCancel
+Source code available here: <a href=\"https://github.com/Delerium69/MtGoxCurrencyWithdrawalCancel\">https://github.com/Delerium69/MtGoxCurrencyWithdrawalCancel</a>
 </TD>
 </TABLE>
 <BR><BR>
@@ -160,6 +160,10 @@ echo "
 		
 	}
 
+} else {
+	
+	echo "<B><div align=\"center\"><font size=\"2\" color=\"yellow\">The key/secret you entered was incorrect or you have no active withdrawals of 'confirmed' status</font></div><BR><BR>";
+	
 }
 
 echo "<div align=\"center\">I do not require any personal donations, I'm here to help customers like me and to be a small help to the success of Bitcoin.<BR><BR>
